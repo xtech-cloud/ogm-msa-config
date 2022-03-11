@@ -1,0 +1,1 @@
+# ogm-msa-config
