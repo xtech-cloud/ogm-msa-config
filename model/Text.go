@@ -8,7 +8,7 @@ import (
 type Text struct {
 	UUID      string `gorm:"column:uuid;type:char(32);not null;unique;primaryKey"`
 	Path      string `gorm:"column:path;type:varchar(128);not null;unique"`
-	Content   string `gorm:"column:content;type:text;not null;default:''"`
+	Content   string `gorm:"column:content;type:text;not null"`
 	CreatedAt time.Time
 	UpdatedAt time.Time
 }
